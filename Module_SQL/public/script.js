@@ -21,9 +21,9 @@ $(function(){
         }
     }
 
-    /*$.get('./update',function(data){
+    $.get('./update',function(data){
         putdata(data);
-    })*/
+    })
 
     submit.click(function(){
         let na= $.trim(name.val());
