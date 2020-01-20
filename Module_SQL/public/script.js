@@ -34,11 +34,14 @@ $(function(){
                 name:na,
                 age:ag
             }, function(data){
-                console.log('Iam in post script');
+                alert('Iam in post script');
                 putdata(data);
 
-                //alert(__dirname+"/indexpage");
-                //$.get('./indexpage');
+                //window.location.href="../indexpage";
+                window.location.href="/";
+                /*$.get('./indexpage',function(data){
+                    $('body').html(data);
+                });*/
                 //window.location.replace("www.google.com");
             })
         }
